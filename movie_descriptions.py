@@ -5,7 +5,7 @@ import json
 from dotenv import load_dotenv, find_dotenv
 
 #Se lee del archivo .env la api key de openai
-_ = load_dotenv('api_keys.env')
+_ = load_dotenv('api_keys_1.env')
 client = OpenAI(
     # This is the default and can be omitted
     api_key=os.environ.get('openai_api_key'),
